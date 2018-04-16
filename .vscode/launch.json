@@ -25,30 +25,10 @@
         },
 
         {
-            "name": "Launch input",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/input",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": true,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ]
-        },
-
-        {
             "name": "Launch sdfgsd",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/sdfgsd",
+            "program": "${workspaceFolder}/obekt",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

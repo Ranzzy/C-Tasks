@@ -14,18 +14,9 @@
             "problemMatcher": []
         },
         {
-            "label": "input",
-            "type": "shell",
-            "command": "g++ input.cpp -o input",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
-        {
             "label": "sdfgsd",
             "type": "shell",
-            "command": "g++ sdfgsd.cpp -o sdfgsd",
+            "command": "g++ obekt.cpp -o obekt",
             "group": {
                 "kind": "build",
                 "isDefault": true
