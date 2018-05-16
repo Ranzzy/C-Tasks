@@ -14,9 +14,18 @@
             "problemMatcher": []
         },
         {
-            "label": "sdfgsd",
+            "label": "chess",
             "type": "shell",
-            "command": "g++ obekt.cpp -o obekt",
+            "command": "g++ chess.cpp -o chess",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "matrix",
+            "type": "shell",
+            "command": "g++ matrix.cpp -o z2",
             "group": {
                 "kind": "build",
                 "isDefault": true

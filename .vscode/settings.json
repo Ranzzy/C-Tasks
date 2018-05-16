@@ -28,7 +28,10 @@
         "tuple": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "iterator": "cpp",
+        "cmath": "cpp",
+        "functional": "cpp"
     },
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "C_Cpp.errorSquiggles": "Disabled"

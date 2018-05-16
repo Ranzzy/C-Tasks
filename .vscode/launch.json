@@ -25,10 +25,30 @@
         },
 
         {
-            "name": "Launch sdfgsd",
+            "name": "Launch obekt",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/obekt",
+            "program": "${workspaceFolder}/chess",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        
+        {
+            "name": "Launch 2",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/z2",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
